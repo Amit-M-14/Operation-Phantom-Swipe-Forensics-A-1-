@@ -1,0 +1,10 @@
+# SHA-256 Evidence Hash Log
+# Generated (UTC): 2026-09-13T18:30:14.198149+00:00
+# Source folder: 02-evidence-collection/simulated-devices
+
+292364791c21143cac195e2913801224e053c4d7b9a2250631d8a111fae4f45b  phone\comm_logs.txt
+6068dce74bc40e6025d48abac230d2a46ae82136e592296e05605b371c5e2945  phone\fraud_app_manifest.txt
+264c44ff83a5f3370e4e6208ad6be3b018fc07948cb278284a695834c67b2c30  phone\gps_log.json
+127a3bd48567dc75fa1ab95767bd28490fb9ef3023b931fa9299a19710c7b74d  skimmer\capture_metadata.csv
+ca1d62ac7a361502175959e64a023ae7df57e85abb753067a944a3419f92e85e  skimmer\skimmer_dump.bin
+b3c7166036648eef2e5c70e603fa8bd5834764e887be462681942fa157d2494a  skimmer\skimmer_firmware_info.txt
