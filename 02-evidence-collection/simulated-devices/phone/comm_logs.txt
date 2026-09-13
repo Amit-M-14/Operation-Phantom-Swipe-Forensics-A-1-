@@ -1,0 +1,6 @@
+Communication Log Extract (simulated, from messaging app database)
+--------------------------------------------------------------------
+[2026-06-10 09:12] Contact "R" -> "batch 2 ready, 40 tracks, send wallet addr"
+[2026-06-10 09:15] Suspect -> "sending now, use mule acct BR-9921"
+[2026-06-11 22:47] Contact "R" -> "skimmer at branch 14 pulled, swap tomorrow"
+[2026-06-12 08:03] Suspect -> "confirmed, will collect 6am"

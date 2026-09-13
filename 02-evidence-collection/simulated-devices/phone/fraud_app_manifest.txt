@@ -1,0 +1,7 @@
+Suspect Phone - Fraudulent App Extraction
+------------------------------------------
+App package (simulated): com.quickpay.cardtools
+Install source: sideloaded APK (not from official store)
+Permissions requested: NFC, CAMERA, INTERNET, WRITE_EXTERNAL_STORAGE, ACCESS_FINE_LOCATION
+Install timestamp: 2026-06-09 21:14:07 (device local time)
+Notes: App icon disguised as a generic "Calculator" utility.

@@ -1,0 +1,4 @@
+capture_id,timestamp_utc,track_len_bytes,signal_quality
+CAP-001,2026-06-11T14:02:31Z,132,0.94
+CAP-002,2026-06-11T14:03:07Z,140,0.91
+CAP-003,2026-06-11T15:11:52Z,128,0.88

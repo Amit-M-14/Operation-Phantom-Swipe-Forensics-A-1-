@@ -1,0 +1,7 @@
+Skimmer Firmware Extraction Log
+--------------------------------
+Chipset: (simulated) generic MSR reader controller
+Firmware version string found: v2.3-fraudbuild (SIMULATED)
+Onboard storage: 4MB flash, wear-leveled
+Bluetooth MAC (simulated): 00:1A:7D:DA:71:11
+Notes: Device attached externally over card slot; no tamper-evident seal found broken on host ATM chassis.
