@@ -1,0 +1,5 @@
+Artefact ID: ART-003
+Source: phone/comm_logs.txt
+Type: Communication log entry
+Value: "sending now, use mule acct BR-9921" (2026-06-10 09:15)
+Relevance: Identifies a money-mule account used to launder fraudulent proceeds.

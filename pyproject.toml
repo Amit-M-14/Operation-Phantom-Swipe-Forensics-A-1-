@@ -1,0 +1,9 @@
+[project]
+name = "operation-phantom-swipe-forensics"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "python-docx>=1.2.0",
+    "pyzipper>=0.4.0",
+]

@@ -1,0 +1,8 @@
+Loaded 10 candidate passwords from wordlist.txt
+[-] Attempt 1: '123456' -> failed
+[-] Attempt 2: 'password' -> failed
+[-] Attempt 3: 'qwerty123' -> failed
+[-] Attempt 4: 'letmein' -> failed
+
+[+] SUCCESS after 5 attempt(s), 0.0253s
+[+] Password found: 'sunshine1'

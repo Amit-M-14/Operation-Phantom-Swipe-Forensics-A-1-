@@ -1,0 +1,5 @@
+Artefact ID: ART-004
+Source: phone/gps_log.json
+Type: GPS location record
+Value: 28.4744, 77.5040 at 2026-06-11T13:55:00Z, tagged "near ATM Branch 14"
+Relevance: Places suspect's phone at the ATM at a time consistent with skimmer installation.

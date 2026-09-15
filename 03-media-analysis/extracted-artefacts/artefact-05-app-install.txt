@@ -1,0 +1,5 @@
+Artefact ID: ART-005
+Source: phone/fraud_app_manifest.txt
+Type: Application install record
+Value: Sideloaded package "com.quickpay.cardtools" disguised as a Calculator app, installed 2026-06-09 21:14:07
+Relevance: Establishes the fraudulent app used for card-data processing/cloning support.

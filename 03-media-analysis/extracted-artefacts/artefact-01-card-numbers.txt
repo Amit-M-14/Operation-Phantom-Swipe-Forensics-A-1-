@@ -1,0 +1,7 @@
+Artefact ID: ART-001
+Source: skimmer/skimmer_dump.bin
+Type: Extracted card track data (SIMULATED / fabricated numbers for coursework)
+Value:
+  4111111111111111 (DOE/JOHN, exp 29/01)
+  4222222222222229 (SMITH/ANNA, exp 28/11)
+Relevance: Direct product of the skimming device; proves data capture capability.

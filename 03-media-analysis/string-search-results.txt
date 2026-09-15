@@ -1,0 +1,13 @@
+FILE                                      LINE KEYWORD         CONTEXT
+phone\comm_logs.txt                          3 wallet          [2026-06-10 09:12] Contact "R" -> "batch 2 ready, 40 tracks, send wallet addr"
+phone\comm_logs.txt                          3 track           [2026-06-10 09:12] Contact "R" -> "batch 2 ready, 40 tracks, send wallet addr"
+phone\comm_logs.txt                          3 batch           [2026-06-10 09:12] Contact "R" -> "batch 2 ready, 40 tracks, send wallet addr"
+phone\comm_logs.txt                          4 mule            [2026-06-10 09:15] Suspect -> "sending now, use mule acct BR-9921"
+phone\comm_logs.txt                          5 skimmer         [2026-06-11 22:47] Contact "R" -> "skimmer at branch 14 pulled, swap tomorrow"
+skimmer\capture_metadata.csv                 1 track           capture_id,timestamp_utc,track_len_bytes,signal_quality
+skimmer\skimmer_dump.bin                     1 skimmer         [SIMULATED BINARY DUMP - SKIMMER DEVICE - EVIDENCE ITEM 001]
+skimmer\skimmer_dump.bin                     2 skimmer         Device: Covert ATM Skimmer Overlay Unit
+skimmer\skimmer_dump.bin                     4 track           Capture buffer (track 1/2 simulated, values fabricated for coursework):
+skimmer\skimmer_firmware_info.txt            1 skimmer         Skimmer Firmware Extraction Log
+
+Total hits: 10

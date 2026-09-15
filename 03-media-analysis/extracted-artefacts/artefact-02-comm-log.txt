@@ -1,0 +1,5 @@
+Artefact ID: ART-002
+Source: phone/comm_logs.txt
+Type: Communication log entry
+Value: "batch 2 ready, 40 tracks, send wallet addr" (2026-06-10 09:12)
+Relevance: Indicates coordination between suspect and co-conspirator "R" regarding stolen card batches.

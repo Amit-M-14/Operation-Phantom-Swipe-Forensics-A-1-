@@ -1,0 +1,5 @@
+Artefact ID: ART-006
+Source: phone/gps_log.json
+Type: GPS location record (pattern)
+Value: Same coordinates (28.4744, 77.5040) revisited at 2026-06-12T06:05:00Z
+Relevance: Return visit to ATM Branch 14 consistent with skimmer retrieval, corroborating comm log "skimmer at branch 14 pulled, swap tomorrow".

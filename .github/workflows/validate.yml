@@ -1,0 +1,71 @@
+name: Validate Repo Structure
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  validate-structure:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Check required files and folders exist
+        run: |
+          set -e
+          required=(
+            "README.md"
+            "01-classification/cybercrime-taxonomy.md"
+            "02-evidence-collection/chain-of-custody-form.md"
+            "02-evidence-collection/acquisition-log.md"
+            "02-evidence-collection/evidence-hashes.sha256"
+            "02-evidence-collection/simulated-devices"
+            "03-media-analysis/search-strategy.md"
+            "03-media-analysis/evidence-log.md"
+            "03-media-analysis/extracted-artefacts"
+            "04-cryptography/locked_evidence.zip"
+            "04-cryptography/crack_password.py"
+            "04-cryptography/cryptography-writeup.md"
+            "05-report/Legal-Technical-Report.docx"
+            "tools/hash_generator.py"
+            "tools/string_search.py"
+            "tools/metadata_extractor.py"
+          )
+          missing=0
+          for f in "${required[@]}"; do
+            if [ ! -e "$f" ]; then
+              echo "::error::Missing required deliverable: $f"
+              missing=1
+            else
+              echo "OK: $f"
+            fi
+          done
+          if [ "$missing" -eq 1 ]; then
+            echo "One or more required deliverables are missing."
+            exit 1
+          fi
+          echo "All required deliverables present."
+
+      - name: Verify evidence hash log is well-formed
+        run: |
+          set -e
+          file="02-evidence-collection/evidence-hashes.sha256"
+          count=$(grep -Ec '^[0-9a-f]{64}  ' "$file" || true)
+          echo "Hash entries found: $count"
+          if [ "$count" -lt 5 ]; then
+            echo "::error::Expected at least 5 SHA-256 hash entries, found $count"
+            exit 1
+          fi
+
+      - name: Verify at least 5 extracted artefacts
+        run: |
+          set -e
+          count=$(find 03-media-analysis/extracted-artefacts -type f | wc -l)
+          echo "Artefact files found: $count"
+          if [ "$count" -lt 5 ]; then
+            echo "::error::Expected at least 5 extracted artefacts, found $count"
+            exit 1
+          fi
